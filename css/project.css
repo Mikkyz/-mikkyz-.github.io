@@ -1,0 +1,122 @@
+.projects{
+    padding: 70px;
+}
+.low-projects{
+    color: blue;
+}
+.head-projects{
+    padding: 30px;
+}
+.head-projects h2{
+    font-size: 30px;
+    display:inline;
+    text-transform: uppercase;
+}
+.head-projects p{
+    font-size: 16px;
+    margin: 15px 0px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.section-projects{
+    padding: 30px;
+}
+.p-section-items{
+    display: flex;
+    justify-content: center;
+}
+
+.p-section-items li{
+    margin: 0px 10px;
+}
+.p-section-items li a{
+    color: black;
+    font-weight: bolder;
+    
+}
+.p-section-items li a:hover{
+    color: blue;
+}
+.main-projects{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.work{
+    text-align: center;
+    margin: 0px 15px;
+    
+}
+.work img{
+    width: 350px;
+}
+.work h4{
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.work p{
+    padding: 5px 0px;
+}
+.main-projects2{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+
+@media screen and (max-width: 768px) {
+    .top{
+        padding: 1px 3rem;
+    }
+    .topcontent{
+        display: list-item;
+        justify-content: center;
+    }
+    .nav-item-box li{
+        display: list-item;
+        padding: 0px 10px;
+        margin: 10px 0px;
+    }
+    .logo-box{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .navbar{
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5rem;
+        background-color: rgb(250, 250, 250);
+    }
+    .nav-item-box{
+        display: list-item;
+        margin: 5px 0px;
+    }
+    .footcontent{
+        display: list-item;
+        justify-content: center;
+        padding: 10px;
+    }
+    .main-projects{
+        display: list-item;
+        justify-content: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .main-projects2{
+        display: list-item;
+        justify-content: center;
+        text-align: center;
+        /* margin-top: 20px; */
+    }
+    .p-section-items{
+        display: list-item;
+        justify-content: center;
+    }
+    .work img{
+        width: 250px;
+    }
+    
+}

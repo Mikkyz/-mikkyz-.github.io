@@ -1,0 +1,29 @@
+@media screen and (max-width: 768px) {
+    .top{
+        padding: 1px 3rem;
+    }
+    .topcontent{
+        display: list-item;
+        justify-content: space-between;
+    }
+    .nav-item-box li{
+        display: list-item;
+        padding: 0px 10px;
+        margin: 10px 0px;
+    }
+    .logo-box{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .navbar{
+        display: list-item;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 5rem;
+        background-color: rgb(250, 250, 250);
+    }
+    .nav-item-box{
+        display: list-item;
+        margin: 5px 0px;
+    }
+} 

@@ -1,0 +1,116 @@
+.contact{
+    padding: 70px;
+}
+.low-contact{
+    color: blue;
+}
+.head-contact{
+    padding: 30px;
+}
+.head-contact h2{
+    font-size: 30px;
+    display:inline;
+    text-transform: uppercase;
+}
+.head-contact p{
+    font-size: 16px;
+    margin: 15px 0px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.section-contact{
+    padding:0px 30px;
+}
+.section-contact h2{
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: 100;
+}
+.section-contact input{ 
+    width: 579px;
+    height: 30px; 
+} 
+.name{
+    width: 579px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.btnbox{
+    background:blue;
+    color: rgb(246, 247, 248);
+    padding: 15px;
+    border-radius: 4px;
+    margin: 11px 0;
+    margin-left: 520px;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .top{
+        padding: 1px 3rem;
+    }
+    .topcontent{
+        display: list-item;
+        justify-content: center;
+    }
+    .nav-item-box li{
+        display: list-item;
+        padding: 0px 10px;
+        margin: 10px 0px;
+    }
+    .logo-box{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .navbar{
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5rem;
+        background-color: rgb(250, 250, 250);
+    }
+    .nav-item-box{
+        display: list-item;
+        margin: 5px 0px;
+    }
+    .footcontent{
+        display: list-item;
+        justify-content: center;
+        padding: 10px;
+    }
+    .section-contact input{ 
+        width: 300px;
+        height: 30px; 
+        
+
+        
+    } 
+    .section-contact h2{
+        margin-bottom: 10px;
+        font-size: 27px;
+        font-weight: 100;
+    }
+    .section-contact textarea{ 
+        width: 300px;
+    } 
+    .name{
+        width: 300px;
+        height: 30px;
+        margin-bottom: 15px;
+    }
+    .btnbox{
+        background:blue;
+        color: rgb(246, 247, 248);
+        padding: 15px;
+        border-radius: 4px;
+        margin: 11px 0;
+        margin-left: 250px;
+        border: none;
+    }
+    .head-contact .section-contact{
+        padding: 5px;
+    }
+    
+    
+} 

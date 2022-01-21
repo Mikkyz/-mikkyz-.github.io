@@ -1,0 +1,149 @@
+.banner{
+    width: 100%;
+    height: 60vh;
+    background-image: url("../img/slides/1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1{
+    color: blue;
+    margin-top: 10rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.services{
+    padding: 70px;
+}
+.low-services{
+    color: blue;
+}
+.head-services{
+    padding: 30px;
+}
+.head-services h2{
+    font-size: 30px;
+    display:inline;
+    text-transform: uppercase;
+}
+.head-services p{
+    font-size: 16px;
+    margin: 15px 0px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+.main-services{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ser{
+    display: flex;
+    padding: 0px 30px;
+}
+.ser h4{
+    font-size: 25px;
+    margin: 5px 0px;
+}
+.ser i{
+    color: blue;
+}
+.serve{
+    border: 1px solid blue;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 6rem;
+}
+.main-services2{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-services3{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+.work img{
+    width: 350px;
+}
+.work h4{
+    font-size: 20px;
+    color: blue;
+    margin: 5px 0px;
+
+}
+.work p{
+    padding: 5px 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .top{
+        padding: 1px 3rem;
+    }
+    .topcontent{
+        display: list-item;
+        justify-content: center;
+    }
+    .nav-item-box li{
+        display: list-item;
+        padding: 0px 10px;
+        margin: 10px 0px;
+    }
+    .logo-box{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .navbar{
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5rem;
+        background-color: rgb(250, 250, 250);
+    }
+    .nav-item-box{
+        display: list-item;
+        margin: 5px 0px;
+    }
+    .footcontent{
+        display: list-item;
+        justify-content: center;
+        padding: 10px;
+    }
+    .serve{
+        border: 1px solid blue;
+        padding:20px;
+        display: list-item;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        width: 6rem;
+    }
+    .main-services2{
+        padding: 30px;
+        display: list-item;
+        justify-content: center;
+    }
+    .main-services3{
+        padding: 30px;
+        display: list-item;
+        justify-content: center;
+    }
+    .main-services{
+        display: list-item;
+        justify-content: center;
+
+    }
+    .ser{
+        display: list-item;
+    }
+    .work img{
+        width: 300px;
+    }
+}
